@@ -16,12 +16,10 @@
         app:cardCornerRadius="10dp"
         android:elevation="0dp">
 
-        <com.camerakit.CameraKitView
-            android:id="@+id/camera"
+        <io.fotoapparat.view.CameraView
+            android:id="@+id/camera_view"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:adjustViewBounds="true"
-            android:background="@color/colorAccent"/>
+            android:layout_height="match_parent"/>
 
     </androidx.cardview.widget.CardView>
 
